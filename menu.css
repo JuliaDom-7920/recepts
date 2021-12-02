@@ -1,0 +1,85 @@
+.menu-one {
+	position: fixed;
+	top: 332px;
+	left: 0;
+}
+.menu-one > ul > li {
+	width: 210px;
+	height: 35px;
+	position: relative;
+	overflow: hidden;
+}
+.menu-one > ul > li:hover {
+	height: 280px;
+}
+.menu-one a {
+	display: block;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: sans-serif;
+	color: black;
+	padding: 10px;
+	margin-bottom: 3px;
+	background-color: white;
+	border: 1px solid #d9d9d9;
+	border-radius: 2px;
+	font-family: 'PT Sans', sans-serif;
+}
+.menu-one a:hover {
+	background-color: #ff9e80;
+	color: white;
+}
+.menu-one > ul > li > a {
+	background-color: #ff5722;
+	color: white;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.menu-one li ul {
+	display: none;
+	width: 210px;
+}
+.menu-one li:hover ul {
+	display: block;
+	position: absolute;
+}
+.menu-two {
+	position: absolute;
+	top: 15%;
+	left: 33.67%;
+	z-index: 1;
+}
+.menu-two > ul > li {
+	display: inline-block;
+	width: 180px;
+	position: relative;
+}
+.menu-two a {
+	display: block;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: sans-serif;
+	color: black;
+	padding: 8px;
+	margin-bottom: 3px;
+	background-color: white;
+	border: 1px solid #d9d9d9;
+	border-radius: 2px;
+	font-family: 'PT Sans', sans-serif;
+}
+.menu-two a:hover {
+	background-color: #ff6230;
+	color: white;
+}
+.menu-two > ul > li > a {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.menu-two li ul {
+	display: none;
+	width: 180px;
+}
+.menu-two li:hover ul {
+	display: block;
+	position: absolute;
+}
